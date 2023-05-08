@@ -82,3 +82,17 @@ body {
     text-shadow: 0 0 5px #219cf3,
     0 0 8px #219cf3;
 }
+.calculator .buttons span#clear {
+    grid-column: span 2;
+    background: #f44336;
+    color: #fff;
+}
+.calculator .buttons span#plus {
+    grid-row: span 2;
+    background: #21a835;
+    color: #fff;
+}
+.calculator .buttons span#equal {
+    background: #2196f3;
+    color: #fff;
+}
